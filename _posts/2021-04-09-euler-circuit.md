@@ -18,7 +18,7 @@ tags: [algorithm]
 
 그러므로 차수가 홀수인 정점이 없다면 사이클이 주렁주렁 달린 그래프라고 볼 수 있습니다.
 
-![Merging Cycle](https://user-images.githubusercontent.com/81361400/114190799-ace09980-9986-11eb-8ff4-ed8c8b6013b7.gif)
+![Merging Cycle](https://user-images.githubusercontent.com/81361400/114193046-1c578880-9989-11eb-9f52-8d67cd088187.gif)
 
 그리고 사이클은 오일러 회로이고, 두 오일러 회로를 연결해서 새로운 오일러 회로를 찾을 수 있기에 차수가 홀수인 정점이 없는 연결 그래프에서 오일러 회로를 찾을 수 있습니다.
 
