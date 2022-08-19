@@ -146,7 +146,7 @@ vector<int> build_cartesian_tree(const vector<int> A) {
     return parent;
 }
 ```
-두 코드를 합해서 RMQ를 구하는 문제([최솟값](https://www.acmicpc.net/problem/10868))을 해결한 코드의 [링크](http://boj.kr/c6140163cd774e75926222604d75e026) 또한 올리겠습니다.
+두 코드를 합해서 RMQ를 구하는 문제([최솟값](https://www.acmicpc.net/problem/10868))을 해결한 코드가 있는 [링크](http://boj.kr/c6140163cd774e75926222604d75e026) 또한 올리겠습니다.
 
 ## 참고 자료
 <ul>
