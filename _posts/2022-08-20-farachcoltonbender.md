@@ -120,7 +120,8 @@ int lca(int a, int b) {
     return euler[ans];
 }
 ```
-위 코드를 사용해서 [LCA 2](https://www.acmicpc.net/problem/11438) 문제를 푼 링크입니다. https://www.acmicpc.net/source/share/855e69cc5fe042b18a78c5af43501252
+위 코드를 사용해서 [LCA 2](https://www.acmicpc.net/problem/11438) 문제를 푼 링크입니다.
+https://www.acmicpc.net/source/share/855e69cc5fe042b18a78c5af43501252
 
 ## $O(N)$ 전처리, $O(1)$ RMQ
 
@@ -146,7 +147,8 @@ vector<int> build_cartesian_tree(const vector<int> A) {
     return parent;
 }
 ```
-두 코드를 합해서 RMQ를 구하는 문제([최솟값](https://www.acmicpc.net/problem/10868))을 푼 코드의 링크 또한 올리겠습니다. http://boj.kr/c6140163cd774e75926222604d75e026
+두 코드를 합해서 RMQ를 구하는 문제([최솟값](https://www.acmicpc.net/problem/10868))을 푼 코드의 링크 또한 올리겠습니다.
+http://boj.kr/c6140163cd774e75926222604d75e026
 
 ## 참고 자료
 <ul>
