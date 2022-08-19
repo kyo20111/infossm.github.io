@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "O(N) Precomputation, O(1) RMQ (Farach-Colton and Bender Algorithm)"
-date: 2022-08-20 00:00:00
+date: 2022-08-19 00:00:00
 author: JooDdae
 tags: [algorithm, data-structure]
 
