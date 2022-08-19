@@ -13,7 +13,9 @@ tags: [algorithm, data-structure]
 우리는 LCA 쿼리를 Euler Tour 테크닉을 통해 RMQ로 변환시킬 수 있습니다. 이는 위 Sparse Table을 이용한 $O(1)$ LCA 쿼리에서도 사용하는 방법이기 때문에 위 링크되어 있는 소멤 글에 자세히 설명되어 있으므로 이 글에서는 설명을 생략하겠습니다. 이 테크닉을 이용해 주어진 트리에서 만든 배열을 $A$라고 하고, 이 배열의 길이를 $N$이라고 합시다.
 
 $A$를 sqrt decomposition을 하듯 $K = 0.5 \log N$ 의 크기의 블럭으로 쪼개줍니다. sqrt decomposition 에서는 블럭 사이의 RMQ를 쿼리마다 $O(\sqrt N)$으로 처리했었는데, 이 알고리즘에서는 블럭의 RMQ를 $O(1)$에 처리하기 위해 Sparse Table을 만듭니다 (Sparse Table을 이용한 $O(1)$ RMQ 또한 위 소멤글 링크에 설명되어 있습니다). 이때의 시간복잡도는 $O(\frac{N}{K} \log (\frac{N}{K}))$인데,
+
 $\frac{N}{K} \log (\frac{N}{K}) = \frac{2N}{\log(N)} \log (\frac{2N}{\log(N)}) \leq \frac{2N}{\log(N)} \log(2N) = \frac{2N}{\log(N)} (1 + \log(N)) = \frac{2N}{\log(N)} + 2N = O(N)$
+
  이므로 $O(N)$의 시간복잡도를 가진 전처리로 블럭의 RMQ를 $O(1)$에 해결할 수 있습니다. 하지만 모든 쿼리가 블럭의 크기에 맞게 주어지지 않기 때문에 각 블럭 내부의 RMQ를 따로 전처리해 줘야 $O(1)$로 쿼리를 처리할 수 있습니다.
 
 Euler Tour 테크닉을 통해 만들어진 배열 $A$의 인접한 두 원소의 level의 차이는 1입니다. 우리는 이를 이용해 각 블럭을 인접한 두 원소의 차로 가능한 $-1$과 $+1$을 뜻하는 $0$과 $1$로만 이루어진 길이 $K-1$의 배열로 표현할 수 있습니다.
