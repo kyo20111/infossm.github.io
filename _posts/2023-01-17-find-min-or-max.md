@@ -59,7 +59,7 @@ int main(){
 
 
 
-https://www.acmicpc.net/problem/1040
+[https://www.acmicpc.net/problem/1040](https://www.acmicpc.net/problem/1040)
 
 가장 위의 자릿수부터 $1$부터 $9$까지 순서대로 넣어본 다음 가능한지 확인해봅시다. 그 상태에서 가능한 가장 큰 수를 찾아 $N$보다 큰 수가 될 수 있는지 확인한다면, 더 큰 숫자로 넘어가지 않고 그 숫자로 확정지어도 $N$보다 큰 수를 만들 수 있다는 것이기 때문에 그 자릿수에서 확정지을 수 있는 가장 작은 숫자가 됩니다.
 
@@ -71,7 +71,7 @@ $K = 4$이고 현재 수는 8XXXXX로 확정을 지은 상태입니다. 남은 �
 
 
 
-https://www.acmicpc.net/problem/1071
+[https://www.acmicpc.net/problem/1071](https://www.acmicpc.net/problem/1071)
 
 문제에서 주어진 배열을 내림차순으로 정렬한다면 주어진 조건을 만족하는 배열을 만들 수 있지만, 우리는 사전 순으로 가장 앞서는 배열을 구해야 하므로 이건 항상 답이 될 수 없습니다. 위와 마찬가지로 앞에서부터 배열에서 사용하지 않은 가장 작은 값부터 하나씩 넣어본 다음 가능한지 판별하면 될 텐데, 이 문제에서는 판별을 단순히 앞의 두 문제처럼 최댓값 혹은 최솟값으로 만들어서 해결할 수 없습니다.
 
@@ -85,7 +85,7 @@ $N$개의 위치마다 $N$개의 수를 하나씩 넣어보는 방법을 사용�
 
 
 
-https://www.acmicpc.net/problem/1426
+[https://www.acmicpc.net/problem/1426](https://www.acmicpc.net/problem/1426)
 
 문제에서 요구하는 정답이 사전 순 최소이므로 A가 쓰여 있는 카드부터 Z가 쓰인 카드까지 차례로 시도해야 하는데, 우리는 같은 문자가 쓰였지만 다른 정수가 쓰여있는 카드가 있으면 어떤 순서대로 해야 할지 처리해야 합니다. 더 큰 정수가 적혀있는 카드의 선택지가 더 작은 정수가 적혀있는 카드의 선택지를 포함하므로 더 적은 범위에서 사용할 수 있는 작은 정수가 적힌 카드를 먼저 사용해야 이득임을 알 수 있습니다. 그러므로 카드를 문자의 오름차순으로, 문자가 같다면 정수의 오름차순으로 정렬하고 앞에서부터 하나씩 넣어봅시다.
 
@@ -100,10 +100,14 @@ https://www.acmicpc.net/problem/1426
 
 끝으로, 이 글의 주제로 풀 수 있는 연습 문제 몇 개를 올리고 글을 마치도록 하겠습니다.
 
-https://www.acmicpc.net/problem/25336
-https://www.acmicpc.net/problem/1482
-https://www.acmicpc.net/problem/23948
-https://www.acmicpc.net/problem/1020
-https://www.acmicpc.net/problem/4012
-https://www.acmicpc.net/problem/2625
+[https://www.acmicpc.net/problem/25336](https://www.acmicpc.net/problem/25336)
 
+[https://www.acmicpc.net/problem/1482](https://www.acmicpc.net/problem/1482)
+
+[https://www.acmicpc.net/problem/23948](https://www.acmicpc.net/problem/23948)
+
+[https://www.acmicpc.net/problem/1020](https://www.acmicpc.net/problem/1020)
+
+[https://www.acmicpc.net/problem/4012](https://www.acmicpc.net/problem/4012)
+
+[https://www.acmicpc.net/problem/2625](https://www.acmicpc.net/problem/2625)
