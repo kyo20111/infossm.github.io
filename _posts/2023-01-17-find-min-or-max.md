@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "조건을 만족하는 최솟값 혹은 최댓값 구하기"
-date: 2023-01-17 00:00:00
+date: 2023-01-16 00:00:00
 author: JooDdae
 tags: [algorithm, greedy]
 ---
