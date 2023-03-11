@@ -124,6 +124,7 @@ int query(int l, int r) {
 다음은 $N = 2^{16}, 2^{20}, 2^{24}$인 1차원 배열에서 $Q = 2^{16}, 2^{20}, 2^{24}$회 랜덤한 range min query를 구했을 때 Sparse Table과 Disjoint Sparse Table의 실행시간을 비교한 표입니다.
 
 Sparse Table / Disjoint Sparse Table Algorithm runtimes
+
 | $Q\,\backslash \, N $ | $2^{16}$          | $2^{20}$          | $2^{24}$          |
 | --------------------- |  ---------------- | ----------------- | ----------------- |
 | $2^{16}$              | 0.00080 / 0.01180 | 0.01400 / 0.03800 | 0.50520 / 0.77320 |
